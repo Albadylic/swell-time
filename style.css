@@ -39,16 +39,16 @@ header {
   z-index: 40;
 }
 
-/* Services list */
+/* Services / Meet the Team */
 
-#services > ul {
+ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#services > ul > li {
+ul > li {
   border: 2px solid var(--deep-sea);
   border-radius: var(--radius);
   background-color: var(--glass);
