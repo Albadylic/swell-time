@@ -39,21 +39,52 @@ header {
   z-index: 40;
 }
 
-/* Services list */
+/* Services / Meet the Team */
 
-#services > ul {
+ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#services > ul > li {
+ul > li {
   border: 2px solid var(--deep-sea);
   border-radius: var(--radius);
   background-color: var(--glass);
-  padding: 22px;
+  padding: 18px;
   margin: 12px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--deep-sea);
+  color: white;
+}
+
+/* Link styles */
+
+a {
+  color: inherit;
+}
+
+.team-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 8px 0 4px 0;
+}
+
+.team-title {
+  font-style: italic;
+  color: var(--muted);
+  margin: 0 0 12px 0;
+}
+
+.team-bio {
+  font-size: 0.9em;
+  line-height: 1.4em;
 }
 
 /* Contact details */
@@ -62,10 +93,4 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-/* Link styles */
-
-a {
-  color: var(--deep-sea);
 }
