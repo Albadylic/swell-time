@@ -64,6 +64,8 @@ footer {
   color: white;
 }
 
+/* Link styles */
+
 a {
   color: inherit;
 }
@@ -83,4 +85,12 @@ a {
 .team-bio {
   font-size: 0.9em;
   line-height: 1.4em;
+}
+
+/* Contact details */
+
+#contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
